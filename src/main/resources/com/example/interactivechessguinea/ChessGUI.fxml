@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="698.0" prefWidth="806.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interactivechessguinea.Controller">
+    <GridPane gridLinesVisible="true" layoutX="151.0" layoutY="65.0" prefHeight="480.0" prefWidth="480.0">
+        <columnConstraints>
+         <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+        </columnConstraints>
+        <rowConstraints>
+         <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #498a58;" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+        <Pane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #ffefd6;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <Label text="A" GridPane.columnIndex="1" />
+      <Label text="B" GridPane.columnIndex="2" />
+      <Label text="C" GridPane.columnIndex="3" />
+      <Label text="D" GridPane.columnIndex="4" />
+      <Label text="E" GridPane.columnIndex="5" />
+      <Label text="F" GridPane.columnIndex="6" />
+      <Label text="G" GridPane.columnIndex="7" />
+      <Label text="H" GridPane.columnIndex="8" />
+      <Label text="8" GridPane.rowIndex="1" />
+      <Label text="7" GridPane.rowIndex="2" />
+      <Label text="6" GridPane.rowIndex="3" />
+      <Label text="5" GridPane.rowIndex="4" />
+      <Label text="4" GridPane.rowIndex="5" />
+      <Label text="3" GridPane.rowIndex="6" />
+      <Label text="2" GridPane.rowIndex="7" />
+      <Label text="1" GridPane.rowIndex="8" />
+    </GridPane>
+   <TextField fx:id="newPosition" layoutX="317.0" layoutY="620.0" />
+   <Button fx:id="submitButton" layoutX="367.0" layoutY="662.0" mnemonicParsing="false" text="Move" />
+    <GridPane gridLinesVisible="true" layoutX="150.0" layoutY="65.0" prefHeight="480.0" prefWidth="480.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="40.0" prefWidth="60.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="60.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <ImageView fx:id="whiteBishop2" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="8">
+            <Image url="@WhiteBishop.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteKnight2" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="8">
+            <Image url="@WhiteKnight.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteRook2" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="8">
+            <Image url="@WhiteRook.jpg" />
+        </ImageView>
+        <ImageView fx:id="whitePawn8" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="7">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="whitePawn7" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="7">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackPawn1" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackRook1" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Image url="@BlackRook.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackPawn2" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackBishop1" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="1">
+            <Image url="@BlackBishop.jpg" />
+        </ImageView>
+        <ImageView fx:id="whitePawn6" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="7">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackKnight1" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Image url="@BlackKnight.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackQueen" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="1">
+            <Image url="@BlackQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackPawn3" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackPawn4" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="2">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackPawn5" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="2">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="whitePawn5" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="7">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="whitePawn4" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="7">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteKing" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="8">
+            <Image url="@WhiteKing.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackBishop2" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="1">
+            <Image url="@BlackBishop.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackKing" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="1">
+            <Image url="@BlackKing.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackKnight2" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="1">
+            <Image url="@BlackKnight.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackPawn6" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="2">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackPawn7" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="2">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackPawn8" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="2">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackRook2" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="1">
+            <Image url="@BlackRook.jpg" />
+        </ImageView>
+        <ImageView fx:id="whitePawn3" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="7">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="whitePawn2" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="7">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="whitePawn1" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="7">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteKnight1" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="8">
+            <Image url="@WhiteKnight.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteQueen" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="8">
+            <Image url="@WhiteQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteBishop1" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="8">
+            <Image url="@WhiteBishop.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteRook1" fitHeight="53.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="8">
+            <Image url="@WhiteRook.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteQueen1" fitHeight="61.0" fitWidth="52.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="7">
+            <Image url="@WhiteQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteQueen2" fitHeight="112.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="7">
+            <Image url="@WhiteQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteQueen3" fitHeight="102.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="7">
+            <Image url="@WhiteQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteQueen4" fitHeight="100.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="7">
+            <Image url="@WhiteQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteQueen5" fitHeight="95.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="7">
+            <Image url="@WhiteQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteQueen6" fitHeight="70.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="7">
+            <Image url="@WhiteQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteQueen7" fitHeight="103.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="7">
+            <Image url="@WhiteQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="whiteQueen8" fitHeight="103.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="7">
+            <Image url="@WhiteQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackQueen1" fitHeight="104.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Image url="@BlackQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackQueen2" fitHeight="100.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Image url="@BlackQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackQueen3" fitHeight="101.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.rowIndex="2">
+            <Image url="@BlackQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackQueen4" fitHeight="92.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.rowIndex="2">
+            <Image url="@BlackQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackQueen5" fitHeight="101.0" fitWidth="53.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="5" GridPane.rowIndex="2">
+            <Image url="@BlackQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackQueen6" fitHeight="97.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="6" GridPane.rowIndex="2">
+            <Image url="@BlackQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackQueen7" fitHeight="92.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="7" GridPane.rowIndex="2">
+            <Image url="@BlackQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="blackQueen8" fitHeight="94.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="8" GridPane.rowIndex="2">
+            <Image url="@BlackQueen.jpg" />
+        </ImageView>
+    </GridPane>
+   <TextField fx:id="originalPosition" layoutX="316.0" layoutY="575.0" />
+   <Label layoutX="192.0" layoutY="579.0" text="Current Position" />
+   <Label layoutX="192.0" layoutY="624.0" text="New Position" />
+   <TextArea fx:id="moveList" layoutX="7.0" layoutY="65.0" prefHeight="480.0" prefWidth="134.0">
+      <font>
+         <Font size="18.0" />
+      </font></TextArea>
+    <GridPane layoutX="663.0" layoutY="65.0" prefHeight="480.0" prefWidth="70.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="95.0" minWidth="10.0" prefWidth="56.0" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="147.0" minWidth="10.0" prefWidth="55.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints maxHeight="126.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="126.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="126.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="126.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="126.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="126.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="126.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="126.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="126.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="75.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="127.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="129.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="110.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="112.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="111.0" minHeight="10.0" prefHeight="55.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+        <ImageView fx:id="capturedBlackQueen" fitHeight="81.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true">
+            <Image url="@BlackQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackRook1" fitHeight="83.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+            <Image url="@BlackRook.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackRook2" fitHeight="92.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+            <Image url="@BlackRook.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackBishop1" fitHeight="88.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+            <Image url="@BlackBishop.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackBishop2" fitHeight="34.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
+            <Image url="@BlackBishop.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackKnight1" fitHeight="90.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="5">
+            <Image url="@BlackKnight.jpg" />
+
+        </ImageView>
+        <ImageView fx:id="capturedBlackKnight2" fitHeight="85.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="6">
+            <Image url="@BlackKnight.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackPawn1" fitHeight="105.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="7">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackPawn2" fitHeight="92.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="8">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackPawn3" fitHeight="87.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="9">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackPawn4" fitHeight="90.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="10">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackPawn5" fitHeight="88.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="11">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackPawn6" fitHeight="36.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="12">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackPawn7" fitHeight="104.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="13">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedBlackPawn8" fitHeight="89.0" fitWidth="32.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="14">
+            <Image url="@BlackPawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhiteQueen" fitHeight="97.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+            <Image url="@WhiteQueen.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhiteRook1" fitHeight="85.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+            <Image url="@WhiteRook.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhiteRook2" fitHeight="82.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+            <Image url="@WhiteRook.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhiteBishop1" fitHeight="92.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3">
+            <Image url="@WhiteBishop.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhiteBishop2" fitHeight="90.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="4">
+            <Image url="@WhiteBishop.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhiteKnight1" fitHeight="97.0" fitWidth="31.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="5">
+            <Image url="@WhiteKnight.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhiteKnight2" fitHeight="91.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="6">
+            <Image url="@WhiteKnight.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhitePawn1" fitHeight="90.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="7">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhitePawn2" fitHeight="94.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="8">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhitePawn3" fitHeight="95.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="9">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhitePawn4" fitHeight="93.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="10">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhitePawn5" fitHeight="94.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="11">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhitePawn6" fitHeight="95.0" fitWidth="34.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="12">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhitePawn7" fitHeight="95.0" fitWidth="33.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="13">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+        <ImageView fx:id="capturedWhitePawn8" fitHeight="95.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="14">
+            <Image url="@WhitePawn.jpg" />
+        </ImageView>
+    </GridPane>
+   <ComboBox fx:id="numberOfPlayers" layoutX="593.0" layoutY="575.0" prefHeight="25.0" prefWidth="70.0" />
+   <Label layoutX="541.0" layoutY="579.0" text="Players" />
+    <MenuBar layoutY="1.0" minWidth="-Infinity" prefHeight="25.0" prefWidth="806.0">
+        <Menu mnemonicParsing="false">
+             <graphic>
+                 <Button mnemonicParsing="false" onAction="#logoutButton" text="Logout" />
+             </graphic>
+        </Menu>
+        <Menu mnemonicParsing="false">
+           <graphic>
+               <Button mnemonicParsing="false" onAction="#resetButton" text="Reset Board" />
+           </graphic>
+        </Menu>
+    </MenuBar>
+   <ComboBox fx:id="difficultyLevel" layoutX="108.0" layoutY="575.0" prefHeight="25.0" prefWidth="70.0" />
+   <Label layoutX="50.0" layoutY="579.0" text="Difficulty" />
+   <ComboBox fx:id="startingColour" layoutX="594.0" layoutY="620.0" prefHeight="25.0" prefWidth="70.0" />
+   <Label fx:id="startingColourLabel" layoutX="497.0" layoutY="624.0" text="Starting Colour" />
+   <Label fx:id="endGameLabel" alignment="CENTER" contentDisplay="CENTER" layoutX="203.0" layoutY="276.0" prefHeight="118.0" prefWidth="427.0" visible="false">
+      <font>
+         <Font size="60.0" />
+      </font>
+   </Label>
+</AnchorPane>

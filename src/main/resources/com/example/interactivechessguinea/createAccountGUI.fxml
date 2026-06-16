@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.interactivechessguinea.CreateAccountController">
+   <TextField fx:id="newUsernameField" layoutX="226.0" layoutY="100.0" promptText="username" />
+   <TextField fx:id="newPasswordField" layoutX="226.0" layoutY="144.0" promptText="password" />
+   <TextField fx:id="confirmPasswordField" layoutX="225.0" layoutY="187.0" promptText="confirm password" />
+   <Button layoutX="251.0" layoutY="227.0" mnemonicParsing="false" onAction="#createAccountButton" text="Create Account" />
+   <Label layoutX="152.0" layoutY="104.0" text="Username" />
+   <Label layoutX="156.0" layoutY="148.0" text="Password" />
+   <Label layoutX="110.0" layoutY="191.0" text="Confirm Password" />
+   <Label fx:id="wrongCreateAccountLabel" layoutX="225.0" layoutY="69.0" prefHeight="17.0" prefWidth="265.0" textFill="RED" />
+</AnchorPane>
