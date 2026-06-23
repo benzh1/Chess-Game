@@ -49,25 +49,6 @@ The Minimax algorithm then traverses the resulting game tree to the configured s
 | Medium     | Moderate     |
 | Hard       | Deep         |
 
-## Getting Started
-
-**Prerequisites:** Java 11+ and JavaFX 11+
-
-```bash
-# Clone the repository
-git clone https://github.com/benzh1/Chess-Game.git
-cd chess
-
-# Compile (adjust module path to your JavaFX SDK location)
-javac --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml \
-  -d out/ src/*.java
-
-# Run
-java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml \
-  -cp out/ Main
-```
-
-> If you are using an IDE such as IntelliJ IDEA or Eclipse, add the JavaFX SDK as a library and configure the VM options above in your run configuration.
 
 ## Technologies
 
