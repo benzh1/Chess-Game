@@ -55,7 +55,7 @@ The Minimax algorithm then traverses the resulting game tree to the configured s
 
 ```bash
 # Clone the repository
-git clone https://github.com/benzh1/chess.git
+git clone https://github.com/benzh1/Chess-Game.git
 cd chess
 
 # Compile (adjust module path to your JavaFX SDK location)
@@ -68,20 +68,6 @@ java --module-path /path/to/javafx-sdk/lib --add-modules javafx.controls,javafx.
 ```
 
 > If you are using an IDE such as IntelliJ IDEA or Eclipse, add the JavaFX SDK as a library and configure the VM options above in your run configuration.
-
-## Project Structure
-
-```
-chess/
-├── src/
-│   ├── Main.java               # Entry point
-│   ├── Board.java              # Board state and move validation
-│   ├── Piece.java              # Piece types and movement rules
-│   ├── AI.java                 # Minimax algorithm and heuristics
-│   ├── AccountManager.java     # User account creation and login
-│   └── GameController.java     # GUI event handling and game flow
-└── README.md
-```
 
 ## Technologies
 
