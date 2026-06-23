@@ -55,7 +55,7 @@ The Minimax algorithm then traverses the resulting game tree to the configured s
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/chess.git
+git clone https://github.com/benzh1/chess.git
 cd chess
 
 # Compile (adjust module path to your JavaFX SDK location)
